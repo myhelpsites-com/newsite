@@ -17,20 +17,60 @@ function IndexPage() {
                 <meta property="og:title" content="My new title" key="title" />
             </Head>
           <Header/>
-            <div class='banner'>
-            <div class='container'>
-                <div class='row flex-column-reverse flex-lg-row'>
-                    <div class='col-md-6 '>
-                        <h1 class='titulo1'>Criação de sites</h1>
-                        <h2>Você sonha, <br/>a gente desenvolve!</h2>
+          
+        <div class="banner">
+            <div class="container">
+                <div class="row flex-column-reverse flex-md-row">
+                    <div class="col-md-5">
+                        <br/>
+                        <br/>
+                        <p class="Fadeleft banner1">Seja bem-vindo(a) a My Help Sites</p>
+                        <br/>
+                        <h1 id="text" data-nome="text" class="titulo-principal banner1">Você sonha, <br/> a gente desenvolve!</h1>
+                        <br/>
+                        <p class="FadeTop banner1"> 
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud
+                            exercício ullamco.
+                        </p>
+                        <br/>
+                        <br/>
+                        <button class="btnW Fadeleft3 banner1">
+                            <a href="" title="Como funciona?">
+                                COMO FUNCIONA?
+                            </a>
+                        </button>
+                        <button class="btnB FadeRight banner1">
+                            <a href="orcamento.php" title="Preciso de um orçamento">
+                                PRECISO DE UM ORÇAMENTO
+                            </a>
+                        </button>
                     </div>
-                    <div class='col-md-6'>
-                    <Image src="/rocket.svg" width={500} height={500} />
-                
+                    <div class="col-md-7 ">
+                        <div class="">
+                          <div class="make banner1 row">
+                                <div class="col-md-3 flexn">
+                                <Image class='makeimg' src="/make.webp" width={80} height={70} />
+                                </div>
+                                <div class="col-md-9">
+                                    <p>
+                                        Maquiagem - R$180 
+                                    </p>
+                                    <span>vendido no ecommerce</span>
+                                </div>
+                            </div>
+                            <div class="retangulo distorce banner1">
+                                <div class="image">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
 
 
 
