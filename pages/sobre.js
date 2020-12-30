@@ -3,12 +3,11 @@ import Header from './header'
 import Image from 'next/image'
 
 
-
 function IndexPage() {
     return (
         <>
             <Head>
-                <title>My page title</title>
+                <title>Sobre</title>
                 
                 <meta name="Description" content="Enter your description here"/>
                 <meta property="og:title" content="My page title" key="title" />
@@ -21,8 +20,8 @@ function IndexPage() {
             <div class='container'>
                 <div class='row flex-column-reverse flex-lg-row'>
                     <div class='col-md-6 '>
-                        <h1 class='titulo1'>Criação de sites</h1>
-                        <h2>Você sonha, <br/>a gente desenvolve!</h2>
+                        <h1 class='titulo1'>Sobre</h1>
+                        <h2>Conheça nossa história</h2>
                     </div>
                     <div class='col-md-6'>
                     <Image src="/rocket.svg" width={500} height={500} />

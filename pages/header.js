@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 function header (){
     return(
@@ -6,7 +7,10 @@ function header (){
         <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-            <a class="navbar-brand" href="#"><Image src="/logo.webp" width={70} height={70} /></a>
+              <Link href="/">
+            <a class="navbar-brand" ><Image src="/logo.webp" width={70} height={70} /></a>
+              
+              </Link>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -17,17 +21,16 @@ function header (){
               <span class="navbar-text">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Comprar <span class="sr-only">(current)</span></a>
+                  <Link href="/">
+                    <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Vender</a>
+                <li class="nav-item active">
+                  <Link href="/sobre">
+                    <a class="nav-link" >Sobre <span class="sr-only">(current)</span></a>
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contato</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Entrar</a>
-                </li>
+               
               </ul>
               </span>
             </div>
