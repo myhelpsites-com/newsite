@@ -117,7 +117,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 85%;
     background-color: rgb(190, 190, 190);
     clip-path: polygon(0 0, 100% 40%, 100% 29%, 100% 100%, 100% 100%, 100% 100%, 0% 80%, 0 0);
-    animation: forma 3s 3s both;
+    animation: forma 3s 1s both;
+    -webkit-animation-fill-mode: forma 3s 1s both;
     float: right;
     z-index: 999999
 }
@@ -364,12 +365,12 @@ a:hover {
 
 @keyframes forma {
     from {
-        margin-top: -70px;
+        transform: translate(0px, 70px);
         background-color: rgb(255, 255, 255);
         clip-path: polygon(0 0, 100% 40%, 100% 29%, 100% 100%, 100% 100%, 100% 100%, 0% 80%, 0 0);
     }
     to {
-        margin-top: 50px;
+        transform: translate(0px, 50px);
         background-color: rgb(240, 240, 240);
         clip-path: polygon(0 0, 100% 20%, 100% 29%, 100% 100%, 100% 100%, 100% 100%, 0% 80%, 0 0);
     }
@@ -414,7 +415,7 @@ a:hover {
     text-align: right;
     z-index: 100000;
     background: white;
-    animation: direita 3s 3s both;
+    animation: direita 3s 1s both;
     
 }
 
@@ -430,11 +431,11 @@ a:hover {
 
 @keyframes direita {
     from {
-        right: -10%;
+        transform: translate(90px, 0px);
         opacity: 0;
     }
     to {
-        right: 0%;
+        transform: translate(0px, 0px);
         opacity: 1;
     }
 }
@@ -599,46 +600,46 @@ a:hover {
 @keyframes fadeleft {
     from {
         opacity: 0;
-        margin-left: -50px
+        transform: translate(-70px, 0px);
     }
     to {
         opacity: 1;
-        margin-left: 0;
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes faderight {
     from {
         opacity: 0;
-        margin-left: 90px
+        transform: translate(90px, 0px);
     }
     to {
         opacity: 1;
-        margin-left: 0;
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fadetop {
     from {
         opacity: 0;
-        margin-top: 50px
+        transform: translate(0px, 0px);
     }
     to {
         opacity: 1;
-        margin-top: 0;
+        transform: translate(0px, 0px);
     }
 }
 
 .FadeTop {
-    animation: fadetop 2s 4.5s both
+    animation: fadetop 2s 1s both
 }
 
 .Fadeleft3 {
-    animation: fadeleft 2s 5s both
+    animation: fadeleft 2s 1.5s both
 }
 
 .FadeRight {
-    animation: faderight 2s 5.3s both
+    animation: faderight 2s 1.5s both
 }
 
 footer {
