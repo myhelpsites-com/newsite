@@ -44,7 +44,26 @@ function header (){
                     <a class="dropdown-item" href="#">Something else here</a>
                   </div>
                 </li>
-               
+                <li class="nav-item active">
+                  <Link href="/sobre">
+                    <a class="nav-link" >Blog <span class="sr-only">(current)</span></a>
+                  </Link>
+                </li>
+                <li class="nav-item active">
+                  <Link href="/sobre">
+                    <a class="nav-link" >FAQ <span class="sr-only">(current)</span></a>
+                  </Link>
+                </li>
+                <li class="nav-item active">
+                  <Link href="/sobre">
+                    <a class="nav-link" >Turoriais <span class="sr-only">(current)</span></a>
+                  </Link>
+                </li>
+                <li class="nav-item active">
+                  <Link href="/sobre">
+                    <a class="nav-link" >Contato <span class="sr-only">(current)</span></a>
+                  </Link>
+                </li>
               </ul>
               </span>
             </div>
