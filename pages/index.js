@@ -4,12 +4,14 @@ import Image from 'next/image'
 
 
 function IndexPage() {
+    
     return (
         <>
             <html>
                 <Head>
                     <title>My page title</title>
-
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://myhelpsites.com/Projetos/api/script.js?id=123"></script>
                     <meta name="Description" content="Enter your description here" />
                     <meta property="og:title" content="My page title" key="title" />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"></link>
@@ -43,7 +45,7 @@ function IndexPage() {
                                         COMO FUNCIONA?
                             </a>
                                 </button>
-                                <button class="btnB FadeRight banner1">
+                                <button class="btnB FadeRight banner1 clickTeste">
                                     <a title="Preciso de um orçamento">
                                         PRECISO DE UM ORÇAMENTO
                             </a>
