@@ -1,3 +1,6 @@
+
+
+
 .banner{
     padding-top: 50px;
 }
@@ -14,7 +17,27 @@
 span {
     font-family: 'Comfortaa';
 }
-
+.cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 9999999;
+  }
+  .cursor--small {
+    width: 5px;
+    height: 5px;
+    left: -2.5px;
+    top: -2.5px;
+    border-radius: 50%;
+    z-index: 11000;
+    background: black;
+  }
+  .cursor--canvas {
+    width: 100vw;
+    height: 100vh;
+    z-index: 12000;
+  }
 header {
     position: fixed;
     top: 0;
@@ -105,6 +128,9 @@ header .btnW {
     /* background-colorgba(255, 255, 255, 0.908)08) */
 }
 
+
+
+
 p, button, li, label, a , b{
     font-family: 'Comfortaa', cursive;
 }
@@ -180,13 +206,13 @@ h2{
 .imgService {
     margin-top: -150px;
     opacity: 0;
-    cursor: pointer;
+     
 }
 
 .imgService2 {
     margin-top: 150px;
     opacity: 0;
-    cursor: pointer;
+     
 }
 
 .bannerH100 {
@@ -196,7 +222,7 @@ h2{
 .imgService4 {
     margin-top: 0px;
     opacity: 0;
-    cursor: pointer;
+     
 }
 
 a {
@@ -241,7 +267,7 @@ a:hover {
 
 .case {
     border-radius: 30px;
-    /* cursor: pointer; */
+    /*   */
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.13);
 }
 
@@ -268,7 +294,7 @@ a:hover {
 .imgService3 {
     margin-top: -100px;
     opacity: 0;
-    cursor: pointer;
+     
 }
 
 .textB4 {
@@ -386,7 +412,7 @@ a:hover {
     height: 400px;
    
     animation: sobe 1.5s 0s both;
-    z-index: 999999
+    z-index: 100
 }
 
 .image2 {
@@ -924,7 +950,7 @@ b {
     outline: none;
     background-color: #2D72FE;
     color: white;
-    cursor: pointer;
+     
     padding: 10px;
     width: 50px;
     height: 50px;
@@ -1165,4 +1191,7 @@ font-size: 20px;
      top: -100px;
      width: 100%;
      min-height: 80vh;
+ }
+ *{
+     cursor: none !important;
  }
