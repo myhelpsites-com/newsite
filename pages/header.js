@@ -4,12 +4,13 @@ import Link from 'next/link';
 
 function header (){
     return(
-        
+      
         <header>
+        
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
               <Link href="/">
-            <a class="navbar-brand" ><Image src="/logo.webp" width={70} height={70} /></a>
+            <a class="navbar-brand" ><Image src="/logo.webp" width={65} height={65} /></a>
               
               </Link>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,14 +37,25 @@ function header (){
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Soluções
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu center" aria-labelledby="navbarDropdown">
+                  <p class="center">Serviços</p>
+                 
                   <Link href="/desenvolvimento-websites">
                     <a class="dropdown-item" >Websites <span class="sr-only">(current)</span></a>
                   </Link>
+                  <Link href="/desenvolvimento-websites">
+                    <a class="dropdown-item" >E-commerce <span class="sr-only">(current)</span></a>
+                  </Link>
+                  <Link href="/desenvolvimento-websites">
+                    <a class="dropdown-item" >Aplicativo <span class="sr-only">(current)</span></a>
+                  </Link>
+                  <Link href="/desenvolvimento-websites">
+                    <a class="dropdown-item" >Sistema Web <span class="sr-only">(current)</span></a>
+                  </Link>
                   <div class="dropdown-divider"></div>
-                  
+                  <p class="center">Tutoriais</p>
                   <Link  href="https://dicadodesenvolvedor.com.br/">
-                    <a title="Desenvolvimento web e mobile" class="dropdown-item" >Tutoriais <br/> Desenvolvimento web e mobile <span class="sr-only">(current)</span></a>
+                    <a title="Desenvolvimento web e mobile" class="dropdown-item" >Desenvolvimento web e mobile <span class="sr-only">(current)</span></a>
                   </Link>
                      </div>
                 </li>
