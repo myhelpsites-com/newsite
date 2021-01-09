@@ -23,10 +23,11 @@ function header (){
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                   <Link href="/">
-                    <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" >Início <span class="sr-only">(current)</span></a>
                   </Link>
                 </li>
-                <li class="nav-item active">
+                
+                <li class="nav-item ">
                   <Link href="/sobre">
                     <a class="nav-link" >Sobre <span class="sr-only">(current)</span></a>
                   </Link>
@@ -39,27 +40,21 @@ function header (){
                   <Link href="/desenvolvimento-websites">
                     <a class="dropdown-item" >Websites <span class="sr-only">(current)</span></a>
                   </Link>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                  <div class="dropdown-divider"></div>
+                  
+                  <Link  href="https://dicadodesenvolvedor.com.br/">
+                    <a title="Desenvolvimento web e mobile" class="dropdown-item" >Tutoriais <br/> Desenvolvimento web e mobile <span class="sr-only">(current)</span></a>
+                  </Link>
+                     </div>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <Link href="/sobre">
                     <a class="nav-link" >Blog <span class="sr-only">(current)</span></a>
                   </Link>
                 </li>
-                <li class="nav-item active">
-                  <Link href="/sobre">
-                    <a class="nav-link" >FAQ <span class="sr-only">(current)</span></a>
-                  </Link>
-                </li>
-                <li class="nav-item active">
-                  <Link href="/sobre">
-                    <a class="nav-link" >Turoriais <span class="sr-only">(current)</span></a>
-                  </Link>
-                </li>
-                <li class="nav-item active">
+                
+                
+                <li class="nav-item">
                   <Link href="/sobre">
                     <a class="nav-link" >Contato <span class="sr-only">(current)</span></a>
                   </Link>
