@@ -131,11 +131,11 @@ function IndexPage() {
                                                 <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
                                                 <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
                                             </svg>
-                                            
+
                                         </div>
                                         <h4>Suporte </h4>
-                                            <p>
-                                                Nosso <b>suporte</b> está disponivel de Segunda à Sexta das 8:00 às 22:00, por telefone, e-mail, WhatsApp ou chat online em nosso <b>site</b>.
+                                        <p>
+                                            Nosso <b>suporte</b> está disponivel de Segunda à Sexta das 8:00 às 22:00, por telefone, e-mail, WhatsApp ou chat online em nosso <b>site</b>.
                                             </p>
                                     </div>
 
@@ -147,7 +147,7 @@ function IndexPage() {
                                                 <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z" />
                                                 <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z" />
                                             </svg>
-                                            
+
                                         </div>
                                         <h4>Entrega </h4>
                                         <p>Todos os projetos de <b>criação</b> recebem um tratamento autentico tornando a entrega mais rapida e o <b>projeto concluido</b>.</p>
@@ -160,7 +160,7 @@ function IndexPage() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#2D72FE" class="bi bi-cloud-check-fill" viewBox="0 0 16 16">
                                                 <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 4.854l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
                                             </svg>
-                                           
+
 
                                         </div>
                                         <h4>Nuvem </h4>
@@ -187,7 +187,7 @@ function IndexPage() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#2D72FE" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
                                                 <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z" />
                                             </svg>
-                                            
+
                                         </div>
                                         <h4>Email profissional </h4>
                                         <p>Tenha mais credibilidade com seus clientes e adquira seu <b>email profissional</b>, disponibilizamos até 5 contas por <b>hospedagem</b>.</p>
@@ -201,7 +201,7 @@ function IndexPage() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#2D72FE" class="bi bi-x-diamond-fill" viewBox="0 0 16 16">
                                                 <path d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.614L8 8.708l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.614-.706L7.292 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" />
                                             </svg>
-                                            
+
                                         </div>
                                         <h4>Pague o projeto por PIX</h4>
                                         <p>Está pensando em criar seu <b>site</b>? pagando com PIX você tem direito a beneficios extras para avaliar a <b>criação</b> do seu <b>projeto</b>.</p>
@@ -266,6 +266,126 @@ function IndexPage() {
 
 
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="banner" id="bannerE">
+                    <div class="container">
+
+                        <div class="estilo1 center">
+                            <h2>Algumas empresas que confiam na MHS</h2>
+                            <h3>Já realizado criação de sites, desenvolvimento de e-commerce, criação de blog, criação de aplicativo</h3>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/ejgo.png"
+                                        width={800}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/cleancare.png"
+                                        width={800}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/tvtaboao.png"
+                                        width={800}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/chave.png"
+                                        width={800}
+                                        height={400}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/manipula.png"
+                                        width={800}
+                                        height={400}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/logo-feeds.png"
+                                        width={100}
+                                        height={90}
+                                        class='clientIMG' />
+                                </div>
+                            </div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div class="row">
+                            <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/ofertado.png"
+                                        width={700}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/larissa.png"
+                                        width={800}
+                                        height={300}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/worth.gif"
+                                        width={800}
+                                        height={300}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/taxivan.webp"
+                                        width={700}
+                                        height={300}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/tapecaria.png"
+                                        width={700}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                
+
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/manuela.png"
+                                        width={50}
+                                        height={50}
+                                        class='clientIMG' />
                                 </div>
                             </div>
                         </div>

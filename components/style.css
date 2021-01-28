@@ -1199,3 +1199,47 @@ b {
     border-radius: 20px;
     box-shadow: 0 1px 7px #00000012;
 }
+
+.iconsLink{
+    width: 40px;
+    margin-top: 15%;
+}
+
+.iconsLink a{
+   background-color: transparent;
+   border: none;
+   padding: 10px;
+    max-height: 45px;
+   
+    
+}
+
+.iconsLink a:hover{
+    background-color: white;
+}
+
+.iconsLink a svg{
+    fill: #2D72FE;
+    width: 23px;
+    transition: all 0.5s;
+}
+.iconsLink a:hover svg{
+    fill: black;
+}
+
+
+.estilo1 h3{
+    font-size: 18px;
+    color: #555;
+}
+
+.clientIMG{
+    filter: grayscale(100%);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.clientIMG:hover{
+    filter: grayscale(0%);
+}
+
+
