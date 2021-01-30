@@ -239,7 +239,7 @@ function IndexPage() {
                                 <br />
                                 <br />
                             </div>
-                                
+
                             <div class='col-md-4 center'>
                                 <div class="banner1">
                                     <Image
@@ -357,7 +357,7 @@ function IndexPage() {
                                 </div>
                                 www.dicadodesenvolvedor.com.br
                             </div>
-                        
+
                         </div>
 
                     </div>
@@ -790,15 +790,15 @@ function IndexPage() {
                 <div class="banner" id="bannerE">
                     <div class="container">
 
-                        <div class="estilo1">
-                            <h2>Criação de sites Wordpress</h2>
+                        <div class="estilo1 right">
+                            <h2 class="">Criação de sites Wordpress</h2>
                             <div class="row">
                                 <div class="col-md-6">
 
                                     <div class="banner1">
                                         <Image
                                             alt="Mountains"
-                                            src="/criacao-site-wordpress.svg"
+                                            src="/online.svg"
                                             width={800}
                                             height={700}
                                             class='image' />
@@ -839,6 +839,231 @@ function IndexPage() {
 
 
                             </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="banner" id="bannerE">
+                    <div class="container">
+
+                        <div class="estilo1 center">
+                            <div class="col-md-12 ">
+
+                                <div class="banner1">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/comprar-dominio.svg"
+                                        width={400}
+                                        height={300}
+                                        class='image' />
+
+
+                                </div>
+                            </div>
+                            <h2 class="">Comprar domínio</h2>
+                            <div class="row">
+
+                                <div class="col-md-12">
+                                    <br />
+                                    <div class="form-group center flex1">
+                                        <input type="text" class="form-control input1 center" name="" id="" aria-describedby="helpId" placeholder="Digite www.seunegocio.com.br" />
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="banner" id="bannerE">
+                    <div class="container">
+
+                        <div class="estilo1 left">
+                            <h2 class="">Hospedagem prossional de sites</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <br />
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card-header" id="headingOne">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Websites
+                                                    </button>
+                                            </h5>
+                                        </div>
+
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non alemanha 0 x 2 coreia do sul cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                </div>
+                                        </div>
+                                        <div class="card-header" id="headingTwo">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Wordpress e Loja virtual
+                                                    </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                </div>
+                                        </div>
+                                        <div class="card-header" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Sistema Web e Aplicativos
+                                                    </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+
+                                    <div class="banner1">
+                                        <Image
+                                            alt="Mountains"
+                                            src="/comprar-hospedagem.svg"
+                                            width={800}
+                                            height={700}
+                                            class='image' />
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="banner" id="bannerE">
+                    <div class="container">
+
+                        <div class="estilo1 center">
+                            <h2>Empresas parceiras</h2>
+                            <h3>Espaço de trabalho, Hospedagem, hardware, software, bibliotecas e frameworks</h3>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/react.png"
+                                        width={650}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/hostinger.png"
+                                        width={850}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/google.png"
+                                        width={800}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/apple.png"
+                                        width={800}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/ubuntu-logo.png"
+                                        width={800}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/vercel.png"
+                                        width={800}
+                                        height={200}
+                                        class='clientIMG vercel' />
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <br />
+                            <div class="row">
+                                <div class="col-md-2">
+                                <br/>
+
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/mamp.png"
+                                        width={700}
+                                        height={150}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/clientes/chave.png"
+                                        width={450}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/vscode.png"
+                                        width={800}
+                                        height={300}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                <br/>
+
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/jquery.png"
+                                        width={800}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/bootstrap.png"
+                                        width={400}
+                                        height={200}
+                                        class='clientIMG' />
+                                </div>
+                                <div class="col-md-2">
+                                    <br/>
+                                    <Image
+                                        alt="Mountains"
+                                        src="/partners/asana.png"
+                                        width={800}
+                                        height={150}
+                                        class='clientIMG' />
+                                </div>
+                            </div>
+                            
                         </div>
 
                     </div>

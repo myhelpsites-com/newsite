@@ -1312,3 +1312,36 @@ b {
     margin: 5px;
     margin-top: 10px;
 }
+
+.input1{
+    min-width: 100px;
+    max-width: 60%;
+    border-radius: 30px;
+}
+
+.flex1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header{
+    border: none;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.089);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.card-header:first-child {
+    border-radius: 30px;
+}
+
+.vercel{
+    filter:invert(100%)
+}
+.vercel:hover{
+    filter:invert(100%)
+}
