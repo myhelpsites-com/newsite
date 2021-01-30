@@ -1234,12 +1234,81 @@ b {
 }
 
 .clientIMG{
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transition: all 0.5s;
     cursor: pointer;
 }
 .clientIMG:hover{
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 
+.iconB{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+}
 
+.icon-scroll,
+.icon-scroll:before{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
+.icon-scroll{
+    position: absolute;
+  
+    bottom: 0px;
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 3px #2D72FE;
+  border-radius: 25px;
+}
+.icon-scroll:before{
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #2D72FE;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+@keyframes scroll{
+  0%{
+    opacity: 1
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+
+.circle svg{
+    width: 35px;
+    fill: #2D72FE;
+}
+
+.btn-select1{
+    color: #2D72FE;
+    background-color: white;
+    border: none;
+    
+}
+.btnAC{
+    color: white;
+    background-color: #2D72FE;
+    border: none;
+
+}
+
+.col-md-4 .banner1{
+    border: 1px solid rgb(241, 241, 241);
+    margin: 5px;
+    margin-top: 10px;
+}
